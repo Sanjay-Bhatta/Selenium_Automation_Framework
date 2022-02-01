@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Practice Automation" thread-count="2" parallel="tests">
+    <test name="SELENIUM BROWSER TEST" thread-count="6" parallel="methods">
+        <packages>
+            <package name="com.test"/>
+        </packages>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
